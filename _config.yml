@@ -1,10 +1,10 @@
 # Site settings
-title: ChenChen Blog
-SEOTitle: 沉沉的博客 | ChenChen Blog
+title: dxc Blog
+SEOTitle: 多线程的博客 | dxc Blog
 header-img: img/home-bg.jpg
 email: dongxc1113@foxmail.com
 description: "一些令人心情复杂的程序记录 | dxc，BUPT "
-keyword: "ChenChen,dxc"
+keyword: "多线程,dxc,博客"
 url: "https://chenchen1113.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -67,8 +67,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "边缘保了研的菜鸡，<br>人生真的是太复杂了"
+sidebar-avatar: /img/avatar-dxc.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
