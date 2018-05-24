@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      "HTML<select>标签向后端传值"
+title:      "HTML select标签向后端传值"
 date:       2018-5-24 22:32:09
 author:     "dxc"
 header-img: "img/post-bg-dayanta.jpg"
@@ -9,7 +9,7 @@ tags:
     - 前端
 ---
 
-# HTML<select>标签向后端传值 #
+# HTML select标签向后端传值 #
 哎……它竟然能直接传……
 
 ## HTML代码 ##
