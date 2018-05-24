@@ -11,7 +11,7 @@ tags:
 # SSM架构前端HTML与后台controller互传数据 #
 
 本篇记录的是在HTML标签中直接与后台互传数据的方法。
-[TOC]
+
 ## 1、HTML传数据到controller ##
 ### HTML代码 ###
 在查询指定任务时，输入一个任务编号，点击查询，代码如下：
@@ -38,7 +38,7 @@ tags:
 ```
 
 ### Java代码 ###
-```Java
+```java
 @Controller
 @RequestMapping("/job")
 public class JobController{
