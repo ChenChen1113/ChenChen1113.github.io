@@ -76,7 +76,7 @@ public class JobController{
     
 }
 ```
-说明：HTML与controller直接传数据的唯一标识是<input>标签中的name而不是id。
+说明：HTML与controller通过input标签中的name传数据，而不是id。
 ```Java
 public String showJobByID(@RequestParam(value = "findJobId")String jobId,Model model)
 ```
