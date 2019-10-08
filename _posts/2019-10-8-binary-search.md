@@ -81,39 +81,33 @@ def binarySearchRight(array, target):
 资料：<https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/er-fen-cha-zhao-suan-fa-xi-jie-xiang-jie-by-labula/>
 （摘自上述链接）   
 基本二分查找：  
-```python
-因为我们初始化 right = nums.length - 1
+> 因为我们初始化 right = nums.length - 1
 所以决定了我们的「搜索区间」是 [left, right]
 所以决定了 while (left <= right)
 同时也决定了 left = mid+1 和 right = mid-1
 
-因为我们只需找到一个 target 的索引即可
-所以当 nums[mid] == target 时可以立即返回
-```
+> 因为我们只需找到一个 target 的索引即可
+所以当 nums[mid] == target 时可以立即返回   
 
 寻找左侧的二分查找：  
-```python
-因为我们初始化 right = nums.length
+> 因为我们初始化 right = nums.length
 所以决定了我们的「搜索区间」是 [left, right)
 所以决定了 while (left < right)
 同时也决定了 left = mid + 1 和 right = mid
 
-因为我们需找到 target 的最左侧索引
+> 因为我们需找到 target 的最左侧索引
 所以当 nums[mid] == target 时不要立即返回
-而要收紧右侧边界以锁定左侧边界
-```
+而要收紧右侧边界以锁定左侧边界     
 
-寻找右侧的二分查找：
-```python
-因为我们初始化 right = nums.length
+寻找右侧的二分查找：   
+> 因为我们初始化 right = nums.length
 所以决定了我们的「搜索区间」是 [left, right)
 所以决定了 while (left < right)
 同时也决定了 left = mid + 1 和 right = mid
 
-因为我们需找到 target 的最右侧索引
+> 因为我们需找到 target 的最右侧索引
 所以当 nums[mid] == target 时不要立即返回
 而要收紧左侧边界以锁定右侧边界
 
-又因为收紧左侧边界时必须 left = mid + 1
-所以最后无论返回 left 还是 right，必须减一
-```
+> 又因为收紧左侧边界时必须 left = mid + 1
+所以最后无论返回 left 还是 right，必须减一   
